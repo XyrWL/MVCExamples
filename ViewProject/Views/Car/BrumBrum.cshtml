@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "BrumBrum";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string[] carModels = {"Volvo", "Saab", "Ford"};
+}
+
+<h2>BrumBrum</h2>
+<ol>
+    @foreach (var carModel in carModels)
+    {
+        <li>@carModel</li>
+    }
+</ol>
+
