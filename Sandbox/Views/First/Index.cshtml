@@ -1,0 +1,24 @@
+﻿@model Sandbox.Models.FirstModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+@if (ViewBag.Result != null)
+{
+    <p>@ViewBag.Result</p>
+}
+
+@using (Html.BeginForm("Index", "First"))
+{
+    @Html.HiddenFor(m => m.CurrentValue);
+    @Html.DisplayTextFor(m => m.CurrentValue);
+    <br/>
+    <label for="numberOne"> 1 </label>
+    @Html.RadioButtonFor(m => m.ChosenNumber, "1", new { id = "numberOne"});
+    <label for="numberTwo"> 2 </label>
+    @Html.RadioButtonFor(m => m.ChosenNumber, "2", new { id = "numberTwo"});
+    <input type="submit" value="Send" />
+}
