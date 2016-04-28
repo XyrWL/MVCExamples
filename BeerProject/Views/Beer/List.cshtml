@@ -1,0 +1,13 @@
+﻿@model List<BeerProject.Models.BeerDetailsModel>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Beer List</h2>
+
+<ul>
+    @foreach (var beer in Model)
+    {
+        <li>@Html.ActionLink(beer.Name, "List", new { id = beer.ID })</li>
+    }
+</ul>

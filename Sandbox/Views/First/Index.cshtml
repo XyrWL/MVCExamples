@@ -11,7 +11,7 @@
     <p>@ViewBag.Result</p>
 }
 
-@using (Html.BeginForm("Index", "First"))
+@using (Html.BeginForm("Index", "First", FormMethod.Post))
 {
     @Html.HiddenFor(m => m.CurrentValue);
     @Html.DisplayTextFor(m => m.CurrentValue);

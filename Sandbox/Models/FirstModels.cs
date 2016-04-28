@@ -10,6 +10,11 @@ namespace Sandbox.Models
         public int CurrentValue { get; set; }
         public int ChosenNumber { get; set; }
 
+        public FirstModel()
+        {
+            Initiate();
+        }
+
         public bool IsWinner()
         {
             CurrentValue += ChosenNumber;

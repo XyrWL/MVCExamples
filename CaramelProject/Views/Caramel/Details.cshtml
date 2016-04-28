@@ -1,0 +1,44 @@
+﻿@model CaramelProject.Models.CaramelDetailsModel
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details of @Model.Name</h2>
+
+<h3>Ingredients</h3>
+<ul>
+    @foreach (var ingredient in Model.Ingredients)
+    {
+        <li>@ingredient</li>
+    }
+</ul>
+
+<h3>Nutritional Information</h3>
+
+<table>
+    <tr>
+        <td>Calories</td>
+        <td>@Model.NutritionalInformation.Calories</td>
+    </tr>
+    <tr>
+        <td>Carbohydrates</td>
+        <td>@Model.NutritionalInformation.Carbohydrates</td>
+    </tr>
+    <tr>
+        <td>Cholesterol</td>
+        <td>@Model.NutritionalInformation.Cholesterol</td>
+    </tr>
+    <tr>
+        <td>Fiber</td>
+        <td>@Model.NutritionalInformation.Fiber</td>
+    </tr>
+    <tr>
+        <td>Lipids</td>
+        <td>@Model.NutritionalInformation.Lipids</td>
+    </tr>
+    <tr>
+        <td>Protein</td>
+        <td>@Model.NutritionalInformation.Protein</td>
+    </tr>
+</table>
+

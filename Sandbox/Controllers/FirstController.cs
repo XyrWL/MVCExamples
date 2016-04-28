@@ -12,9 +12,7 @@ namespace Sandbox.Controllers
         // GET: First
         public ActionResult Index()
         {
-            var model = new FirstModel();
-            model.Initiate();
-            return View(model);
+            return View(new FirstModel());
         }
 
         // POST: First
