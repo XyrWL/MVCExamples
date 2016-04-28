@@ -1,0 +1,21 @@
+﻿@model List<AbbreviationProject.Models.AbbreviationModel>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+
+<table>
+    <tr>
+        <th>ABBR</th>
+        <th>Title</th>
+    </tr>
+    @foreach (var abbreviation in Model)
+    {
+        <tr>
+            <td>@abbreviation.Abbr</td>
+            <td>@abbreviation.Title</td>
+        </tr>
+    }
+</table>
+

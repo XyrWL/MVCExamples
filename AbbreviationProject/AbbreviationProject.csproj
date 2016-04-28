@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{217311F7-FBD8-4AF0-97C1-2DD4CA13D1CF}</ProjectGuid>
+    <ProjectGuid>{C05CF28B-A14C-428C-8D16-4B52C6473697}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RazorProject</RootNamespace>
-    <AssemblyName>RazorProject</AssemblyName>
+    <RootNamespace>AbbreviationProject</RootNamespace>
+    <AssemblyName>AbbreviationProject</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -101,19 +101,16 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
-    <Content Include="Views\KungFu\FullDetails.cshtml" />
-    <Content Include="Views\KungFu\Stars.cshtml" />
-    <Content Include="Views\KungFu\StarsSOCad.cshtml" />
+    <Content Include="Views\Abbreviation\List.cshtml" />
+    <Content Include="Views\Abbreviation\AutoList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\KungFuController.cs" />
-    <Compile Include="Controllers\RecipeController.cs" />
+    <Compile Include="Controllers\AbbreviationController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\KungFuMaster.cs" />
-    <Compile Include="Models\RecipeDetailsModel.cs" />
+    <Compile Include="Models\AbbreviationModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -121,7 +118,7 @@
     <Content Include="packages.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Recipe\FullDetails.cshtml" />
+    <Content Include="Views\Abbreviation\Display.cshtml" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
@@ -149,9 +146,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>32355</DevelopmentServerPort>
+          <DevelopmentServerPort>34084</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:32326/</IISUrl>
+          <IISUrl>http://localhost:34084/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

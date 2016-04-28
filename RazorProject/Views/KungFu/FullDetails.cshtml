@@ -1,0 +1,51 @@
+﻿@model IEnumerable<RazorProject.Models.KungFuMaster>
+
+@{
+    ViewBag.Title = "FullDetails";
+}
+
+<h2>FullDetails</h2>
+
+<p>
+    @Html.ActionLink("Create New", "FullDetails")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Age)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.KungFuStyle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Level)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Age)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KungFuStyle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Level)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "FullDetails", new { id=item.ID }) |
+            @Html.ActionLink("Details", "FullDetails", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "FullDetails", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

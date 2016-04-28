@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Stars";
+}
+
+<h2>Stars</h2>
+@* SOC: Bad practice *@
+@helper RatingStars(int numberOfStars)
+{
+    <span style="color: orange">
+        @for (int i = 0; i < numberOfStars; i++)
+        {
+            <text>*</text>
+        }
+    </span>
+}
+
+<h3>Stars to display:</h3>
+@RatingStars(4)
