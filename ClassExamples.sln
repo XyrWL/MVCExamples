@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingProject", "RoutingProject\RoutingProject.csproj", "{52E6193C-DAAB-4C3E-9827-A4DB28436E9D}"
 EndProject
@@ -16,6 +16,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerProject", "BeerProject\BeerProject.csproj", "{E7D07D6E-DAB5-4589-B36B-1A4F239E73F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbbreviationProject", "AbbreviationProject\AbbreviationProject.csproj", "{C05CF28B-A14C-428C-8D16-4B52C6473697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCEntityProject", "MVCEntityProject\MVCEntityProject.csproj", "{763941E3-B026-480B-A01B-66711B72C678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarReviewProject", "CarReviewProject\CarReviewProject.csproj", "{EC3CF680-4ADD-415C-8527-FE9654FE4067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskProject", "KioskProject\KioskProject.csproj", "{6A5FD4A0-9127-47E6-814A-2BA77BAAFF02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskProjectTests", "KioskProjectTests\KioskProjectTests.csproj", "{7D016FA6-69B0-4701-B3ED-A6574D482A25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +59,22 @@ Global
 		{C05CF28B-A14C-428C-8D16-4B52C6473697}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C05CF28B-A14C-428C-8D16-4B52C6473697}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C05CF28B-A14C-428C-8D16-4B52C6473697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763941E3-B026-480B-A01B-66711B72C678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763941E3-B026-480B-A01B-66711B72C678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763941E3-B026-480B-A01B-66711B72C678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763941E3-B026-480B-A01B-66711B72C678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC3CF680-4ADD-415C-8527-FE9654FE4067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC3CF680-4ADD-415C-8527-FE9654FE4067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC3CF680-4ADD-415C-8527-FE9654FE4067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC3CF680-4ADD-415C-8527-FE9654FE4067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5FD4A0-9127-47E6-814A-2BA77BAAFF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5FD4A0-9127-47E6-814A-2BA77BAAFF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5FD4A0-9127-47E6-814A-2BA77BAAFF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5FD4A0-9127-47E6-814A-2BA77BAAFF02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D016FA6-69B0-4701-B3ED-A6574D482A25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D016FA6-69B0-4701-B3ED-A6574D482A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D016FA6-69B0-4701-B3ED-A6574D482A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D016FA6-69B0-4701-B3ED-A6574D482A25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
