@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskProject", "KioskProjec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KioskProjectTests", "KioskProjectTests\KioskProjectTests.csproj", "{7D016FA6-69B0-4701-B3ED-A6574D482A25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeProject", "CakeProject\CakeProject.csproj", "{BD3AD56E-E145-4BCB-99A7-5880C847148B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxWebProject", "AjaxWebProject\AjaxWebProject.csproj", "{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{7D016FA6-69B0-4701-B3ED-A6574D482A25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D016FA6-69B0-4701-B3ED-A6574D482A25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D016FA6-69B0-4701-B3ED-A6574D482A25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3AD56E-E145-4BCB-99A7-5880C847148B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3AD56E-E145-4BCB-99A7-5880C847148B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3AD56E-E145-4BCB-99A7-5880C847148B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3AD56E-E145-4BCB-99A7-5880C847148B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

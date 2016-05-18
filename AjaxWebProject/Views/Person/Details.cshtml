@@ -1,0 +1,43 @@
+﻿@model AjaxWebProject.Models.Person
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Person</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BirthDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+@Ajax.ActionLink(linkText: "If you click here I use Ajax to get information from the PersonController.",
+    actionName: "HitMe",
+    ajaxOptions: new AjaxOptions
+    {
+        UpdateTargetId = "ajaxtarget",
+        InsertionMode = InsertionMode.InsertAfter
+    })
+<div id="ajaxtarget"></div>
