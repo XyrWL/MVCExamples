@@ -53,3 +53,13 @@
         InsertionMode = InsertionMode.Replace
     })
 <div id="ajaxpartialtarget"></div>
+
+@* ---------- Part 3: Hide Partial View (in a crappy way) ---------- *@
+@Ajax.ActionLink(
+    linkText: "Hide stuff.",
+    actionName: "_HideCreate",
+    controllerName: "Car",
+    ajaxOptions: new AjaxOptions
+    {
+        UpdateTargetId = "ajaxpartialtarget"
+    })
