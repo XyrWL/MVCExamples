@@ -16,5 +16,17 @@ namespace AjaxWebProject.Controllers
         }
 
         public void _HideCreate(){}
+
+        public PartialViewResult _CreateV2(int id)
+        {
+            var car = new Car { PersonId = id };
+            return PartialView(viewName: "_CreateV2", model: car);
+        }
+
+        [HttpPost]
+        public string _CreateV2(int id, Car model){
+
+            return "A car was successfully created (in theory).";
+        }
     }
 }

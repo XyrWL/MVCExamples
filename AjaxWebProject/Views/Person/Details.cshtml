@@ -26,10 +26,6 @@
 
     </dl>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
-    @Html.ActionLink("Back to List", "Index")
-</p>
 
 @* ---------- Part 1: Simple Ajax From Controller ---------- *@
 @Ajax.ActionLink(linkText: "If you click here I use Ajax to get information from the PersonController.",
@@ -63,3 +59,17 @@
     {
         UpdateTargetId = "ajaxpartialtarget"
     })
+
+<br/>
+@* ---------- Part 4: Partial View With Form ---------- *@
+@Ajax.ActionLink(
+    linkText: "Part 4 with a car form.",
+    actionName: "_CreateV2",
+    controllerName: "Car",
+    routeValues: new { id = Model.ID },
+    ajaxOptions: new AjaxOptions
+    {
+        UpdateTargetId = "ajaxsecondpartialtarget",
+        InsertionMode = InsertionMode.Replace
+    })
+<div id="ajaxsecondpartialtarget"></div>
