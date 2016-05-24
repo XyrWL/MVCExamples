@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeProject", "CakeProject\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxWebProject", "AjaxWebProject\AjaxWebProject.csproj", "{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretProject", "SecretProject\SecretProject.csproj", "{F2246A64-14AE-4133-84FA-476DDEE2B07C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA0A1743-BB1E-40CF-BC5E-BC6C660BD9FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2246A64-14AE-4133-84FA-476DDEE2B07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2246A64-14AE-4133-84FA-476DDEE2B07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2246A64-14AE-4133-84FA-476DDEE2B07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2246A64-14AE-4133-84FA-476DDEE2B07C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
